@@ -1,13 +1,6 @@
-import "@/src/styles/globals.css";
-import "@mantine/core/styles.css";
-import { MantineProvider } from "@mantine/core";
+import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import theme from "@/src/styles/theme";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <MantineProvider theme={theme}>
-      <Component {...pageProps} />
-    </MantineProvider>
-  );
+  return <Component {...pageProps} />;
 }

@@ -13,9 +13,9 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "postcss.config.mjs", ".eslintrc.js", "next.config.mjs", ".prettierrc.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "postcss.config.mjs", ".eslintrc.js"],
   "exclude": ["node_modules"]
 }
