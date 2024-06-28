@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @font-face {
   font-family: "Pretendard";
@@ -8,9 +8,20 @@
   font-weight: 400;
   font-style: normal;
 }
+<<<<<<< HEAD
 @font-face {
   font-family: "Nexon";
   src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+=======
+
+body {
+  font-family: "Pretendard";
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+>>>>>>> d1f819a053d347994f42db6a68295f2024f77073
 }

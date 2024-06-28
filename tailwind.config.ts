@@ -34,6 +34,7 @@ const config: Config = {
         yellow: "#FDD181",
       },
       fontSize: {
+<<<<<<< HEAD
         "8": "0.5rem",
         "9": "0.5625rem",
         "10": "0.625rem",
@@ -49,6 +50,11 @@ const config: Config = {
         "20": "1.25rem",
         "24": "1.5rem",
         "30": "1.875rem",
+=======
+        "14": "0.875rem",
+        "16": "1rem",
+        "18": "1.125rem",
+>>>>>>> d1f819a053d347994f42db6a68295f2024f77073
         "32": "2rem",
         "40": "2.5rem",
         "50": "3.125rem",
@@ -63,6 +69,11 @@ const config: Config = {
       },
       borderRadius: {
         "1/2": "50%",
+<<<<<<< HEAD
+=======
+        "20": "20px",
+        "25": "25px",
+>>>>>>> d1f819a053d347994f42db6a68295f2024f77073
       },
       lineHeight: {
         "20": "1.25rem",
