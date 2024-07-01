@@ -20,7 +20,6 @@ export default function Home() {
   });
   return (
     <>
-      <Header />
       <div className="relative overflow-hidden">
         <div className="absolute -left-10 -right-10 bottom-0 h-56 translate-y-1/2 rounded-1/2 bg-gray-800" />
         <Flex bg="#F1F4FD" direction="column" align="center">
