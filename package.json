@@ -30,6 +30,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -45,7 +46,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^9.0.11",
     "postcss": "^8",
-    "prettier": "^3.2.5",
+    "postcss-preset-mantine": "^1.15.0",
+    "prettier": "^3.3.2",
     "prettier-eslint": "^16.3.0",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "tailwindcss": "^3.4.1",
