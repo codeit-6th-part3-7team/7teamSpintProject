@@ -1,9 +1,8 @@
+import IcoBurger from "@/public/assets/ic_burger.svg";
+import ImgLogo from "@/public/assets/img_logo.webp";
 import { Group, Menu } from "@mantine/core";
-
 import Image from "next/image";
 import Link from "next/link";
-import ImgLogo from "@/public/assets/img_logo.webp";
-import IcoBurger from "@/public/assets/ic_burger.svg";
 
 export default function Header() {
   return (

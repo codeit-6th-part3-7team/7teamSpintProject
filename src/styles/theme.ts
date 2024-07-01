@@ -1,4 +1,4 @@
-import { createTheme, MantineThemeOverride } from "@mantine/core";
+import { MantineThemeOverride, createTheme } from "@mantine/core";
 
 const theme: MantineThemeOverride = {
   breakpoints: {
