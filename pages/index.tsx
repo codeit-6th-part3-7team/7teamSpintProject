@@ -8,10 +8,6 @@ import LandingImg_07 from "@/public/assets/img_landing_07.webp";
 import LandingImg_08 from "@/public/assets/img_landing_08.webp";
 import LandingImg_09 from "@/public/assets/img_landing_09.webp";
 import LandingImg_10 from "@/public/assets/img_landing_10.webp";
-<<<<<<< HEAD
-import Header from "@/src/components/Header";
-=======
->>>>>>> 7e782f4 (Design: 시안에 맞춰 디자인 수정)
 import { Box, Button, Flex, Grid, useMatches } from "@mantine/core";
 import Image from "next/image";
 import Link from "next/link";
